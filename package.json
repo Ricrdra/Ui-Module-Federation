@@ -1,0 +1,27 @@
+{
+  "name": "root",
+  "workspaces": [
+    "apps/*"
+  ],
+  "author": {
+    "name": "Ricardo Rito Anguiano <ricardo.rito.a@gmail.com>",
+    "url": "https://www.github.com/captainrun"
+  },
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "lerna first project with module federation",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^v16.14.0",
+    "yarn": ">=^1.22.17",
+    "npm": "please-use-yarn"
+  }
+}
+
